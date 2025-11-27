@@ -5,3 +5,5 @@ Mise en place d'une architecture DevOps de création des VM Proxmox à partir de
 `
 Proxmox VE 9.1, Terraform 1.14.0
 `
+adminProxmox
+
