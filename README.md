@@ -5,5 +5,5 @@ Mise en place d'une architecture Iaac de création des VM Proxmox à partir de T
 `
 Proxmox VE 9.1, Terraform 1.14.0
 `
-adminProxmox
+et un accès root adminProxmox
 
