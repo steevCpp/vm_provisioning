@@ -7,3 +7,7 @@ Proxmox VE 9.1, Terraform 1.14.0
 `
 et un accès root adminProxmox
 
+
+Ressource:
+
+- https://openclassrooms.com/fr/courses/8481551-optimisez-vos-virtualisations-avec-proxmox-ve/8502981-decouvrez-et-installez-proxmox-ve
