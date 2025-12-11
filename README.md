@@ -57,3 +57,4 @@ Ressource:
 - https://slash-root.fr/proxmox-template-debian12-avec-cloud-init/
 - https://dev.to/mrvym/introduction-a-terraform-avec-proxmox-83a
 - https://registry.terraform.io/providers/bpg/proxmox/latest/docs
+- https://www.it-connect.fr/tuto-bien-debuter-avec-proxmox-ve/#VII_Creer_une_machine_virtuelle_sous_Proxmox
