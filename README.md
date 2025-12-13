@@ -44,6 +44,9 @@ C'est dans node(Host-003) -> Mise à jour -> Dépôts
 ```
 qm template 9000
 ```
+??? note
+    aaa
+
 [template Ubuntu]<img width="1205" height="356" alt="image" src="https://github.com/user-attachments/assets/aeb5b410-0039-45da-8c30-e2ebd83600ae" />
 
 
