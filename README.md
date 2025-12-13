@@ -44,6 +44,10 @@ C'est dans node(Host-003) -> Mise à jour -> Dépôts
 ```
 qm template 9000
 ```
+- On doit activer le qemu-guest-agent dans le template(nécessaire pour utiliser terraform)
+  
+[Activation quemu agent]<img width="1193" height="527" alt="image" src="https://github.com/user-attachments/assets/595d1208-bae3-4500-827b-161865ddb8d2" />
+
 
 [template Ubuntu]<img width="1205" height="356" alt="image" src="https://github.com/user-attachments/assets/aeb5b410-0039-45da-8c30-e2ebd83600ae" />
 
