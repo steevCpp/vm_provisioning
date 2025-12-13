@@ -51,6 +51,37 @@ qm template 9000
 
 [template Ubuntu]<img width="1205" height="356" alt="image" src="https://github.com/user-attachments/assets/aeb5b410-0039-45da-8c30-e2ebd83600ae" />
 
+## Configuration de la clé API
+- Création d'un utilisateur terraform
+[terraform user]<img width="1262" height="529" alt="Capture d&#39;écran 2025-12-13 101955" src="https://github.com/user-attachments/assets/112ff4b0-b768-4d51-86d0-1cb5b41fcb9b" />
+
+- Création de la clé API associé à l'utilisateur terraform exemple(d8661fba-1c3e-45eb-b6d5-cef8df6dafd1)(terraform@pam!terraform_token)
+[token terraform]<img width="1223" height="528" alt="image" src="https://github.com/user-attachments/assets/7d865b46-24dc-4a0d-8f64-1a3c931c9766" />
+
+- Donnons les permissions à la clé API
+
+[role token]<img width="1099" height="577" alt="image" src="https://github.com/user-attachments/assets/13512886-3619-42d1-8ca1-b89d6ad543b6" />
+
+## Terraform
+
+- Création et configuration
+[workspace]<img width="648" height="122" alt="image" src="https://github.com/user-attachments/assets/b3ce2d2c-062a-4a4f-b429-038f7941e057" />
+
+- main.tf
+```
+terraform {
+  required_providers {
+    proxmox = {
+      source = "telmate/proxmox"
+      version = "2.7.4"
+    }
+  }
+}
+```
+- Initialisation et téléchargement du provider telmate pour terraform
+<img width="776" height="441" alt="image" src="https://github.com/user-attachments/assets/5f74833d-8554-4641-ae9d-c323ccdc9401" />
+
+- 
 
 
 
@@ -62,4 +93,5 @@ Ressource:
 - https://slash-root.fr/proxmox-template-debian12-avec-cloud-init/
 - https://dev.to/mrvym/introduction-a-terraform-avec-proxmox-83a
 - https://registry.terraform.io/providers/bpg/proxmox/latest/docs
+- https://registry.terraform.io/providers/Telmate/proxmox/latest/docs/resources/vm_qemu
 - https://www.it-connect.fr/tuto-bien-debuter-avec-proxmox-ve/#VII_Creer_une_machine_virtuelle_sous_Proxmox
