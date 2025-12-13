@@ -21,7 +21,7 @@ C'est dans node(Host-003) -> Mise à jour -> Dépôts
 - coller l'url dans Proxmox à Host-003/local(Host-003)/Images ISO/ `Télécharger depuis l'url` https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img
 - Création d'une VM (en ligne de commande): `qm create 9000 --name "ubuntu-2204-cloudinit-template" --memory 4096 --net0 virtio,bridge=vmbr0 `
 - Importation de l'image téléchargée en tant que disk pour la VM 9000
-```bash
+```(bash)
  qm importdisk 9000 /var/lib/vz/template/iso/jammy-server-cloudimg-amd64.img  local-lvm
  ```
 [emplacement des disk pr default sur proxmox]<img width="702" height="622" alt="image" src="https://github.com/user-attachments/assets/b3e8eb06-cf7c-455c-8a38-786962e0c729" />
@@ -44,8 +44,6 @@ C'est dans node(Host-003) -> Mise à jour -> Dépôts
 ```
 qm template 9000
 ```
-??? note
-    aaa
 
 [template Ubuntu]<img width="1205" height="356" alt="image" src="https://github.com/user-attachments/assets/aeb5b410-0039-45da-8c30-e2ebd83600ae" />
 
