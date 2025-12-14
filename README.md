@@ -55,7 +55,7 @@ qm template 9000
 - Création d'un utilisateur terraform
 [terraform user]<img width="1262" height="529" alt="Capture d&#39;écran 2025-12-13 101955" src="https://github.com/user-attachments/assets/112ff4b0-b768-4d51-86d0-1cb5b41fcb9b" />
 
-- Création de la clé API associé à l'utilisateur terraform exemple(d8661fba-1c3e-45eb-b6d5-cef8df6dafd1)(terraform@pam!terraform_token)
+- Création de la clé API associé à l'utilisateur terraform exemple(f5561b37-2b08-45fd-8db5-7360ccc53a8f)(terraform@pam!terraform_token)
 [token terraform]<img width="1223" height="528" alt="image" src="https://github.com/user-attachments/assets/7d865b46-24dc-4a0d-8f64-1a3c931c9766" />
 
 - Donnons les permissions à la clé API
@@ -81,7 +81,7 @@ terraform {
 - Initialisation et téléchargement du provider telmate pour terraform
 <img width="776" height="441" alt="image" src="https://github.com/user-attachments/assets/5f74833d-8554-4641-ae9d-c323ccdc9401" />
 
-- 
+- mise à jour de la derniere version du provider telmate/proxmox (source = "telmate/proxmox") et en cli:  terraform init -upgrade
 
 
 
