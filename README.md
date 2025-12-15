@@ -82,6 +82,8 @@ terraform {
 <img width="776" height="441" alt="image" src="https://github.com/user-attachments/assets/5f74833d-8554-4641-ae9d-c323ccdc9401" />
 
 - mise à jour de la derniere version du provider telmate/proxmox (source = "telmate/proxmox") et en cli:  terraform init -upgrade
+<img width="759" height="104" alt="image" src="https://github.com/user-attachments/assets/a50a83a6-384f-4b9f-8bf1-ae2ed8549d22" />
+
 
 
 
