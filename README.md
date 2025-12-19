@@ -88,6 +88,11 @@ terraform {
   
 
 
+
+- Configuration de Ceph
+- ajour de disque virtuel( Configuration -> Stockage -> SATA -> VDI)
+
+  
 Ressource:
 
 - https://openclassrooms.com/fr/courses/8481551-optimisez-vos-virtualisations-avec-proxmox-ve/8502981-decouvrez-et-installez-proxmox-ve
