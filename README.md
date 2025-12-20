@@ -7,7 +7,7 @@ Proxmox VE 9.1, Terraform 1.14.0
 `
 et un accès root adminProxmox
 
-- Si vous utiliser la version gratuite de proxmox, desactiver le dépôt entreprise afin de faire de mise à jour de votre serveur proxmox(apt-get upgrade && apt-get update).
+- Si vous utiliser la version gratuite de [proxmox sur vitualbox](https://www.walidalhabib.net/proxmox.html), *penser `cd "C:\Program Files\Oracle\VirtualBox"` et `.\VBoxManage.exe modifyvm "ProxmoxVE" --nested-hw-virt on` (activer la virtualisation imbriqué 'Nested VT-x/AMD-V') ,*desactiver le dépôt entreprise afin de faire de mise à jour de votre serveur proxmox(apt-get upgrade && apt-get update).
 C'est dans node(Host-003) -> Mise à jour -> Dépôts
 
 [dépôts]<img width="1716" height="602" alt="image" src="https://github.com/user-attachments/assets/b514292b-a879-4434-a2f8-d4c58962c453" />
