@@ -103,3 +103,4 @@ Ressource:
 - https://registry.terraform.io/providers/bpg/proxmox/latest/docs
 - https://registry.terraform.io/providers/Telmate/proxmox/latest/docs/resources/vm_qemu
 - https://www.it-connect.fr/tuto-bien-debuter-avec-proxmox-ve/#VII_Creer_une_machine_virtuelle_sous_Proxmox
+- https://github.com/ZacksHomeLab/terraform-proxmox-cloudinit-vm
