@@ -45,3 +45,4 @@ export PM_API_TOKEN_SECRET="25a1df32-1b91-4c65-9898-be100c4325f7"
 
 
 - Source:  https://registry.terraform.io/providers/Telmate/proxmox/latest/docs
+           https://pve.proxmox.com/wiki/User_Management#pveum_users
