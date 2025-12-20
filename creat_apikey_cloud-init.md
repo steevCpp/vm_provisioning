@@ -26,15 +26,8 @@ pveum aclmod / -user terraform-prov@pve -role TerraformProv
 pveum user token add terraform-prov@pve mytoken
 ```
 
-┌── ──── ────────┬───── ─────── ─────── ───────────────────┐
-│ key            │ value                                  │
-╞════ ══ ════════╪═════ ══════ ══════ ═════════════════════╡
 │  full-tokenid │ terraform-prov@pve!mytoken            │
-├───── ─────────┼───────── ──── ─────── ──────────────────┤
-│ info          │ {"privsep":1}                        │
-├─────── ── ─────┼───────────────────────────── ─────────┤
 │ value         │ 25a1df32-1b91-4c65-9898-be100c4325f7 │
-└────── ─── ─────┴────── ────────────────────────────────┘
 
 - Dans le serveur/outils sur lequel compte utiliser terraform, en export les données de onnection.
 
