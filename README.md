@@ -94,7 +94,7 @@ terraform {
 
   
 Ressource:
-
+- https://pve.proxmox.com/pve-docs/pve-admin-guide.html
 - https://openclassrooms.com/fr/courses/8481551-optimisez-vos-virtualisations-avec-proxmox-ve/8502981-decouvrez-et-installez-proxmox-ve
 - https://rdr-it.com/proxmox-utiliser-cloud-init-pour-deployer-des-machines-virtuelles-ubuntu/
 - https://ochoaprojects.com/posts/DeployingVMsWithTerraformInProxMox/
